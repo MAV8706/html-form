@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>              
+
+<head>
+
+     <title> Tarea Form HTML 1 </title>
+
+</head>
+
+<body>
+
+    <form name="formulario" action="guardar" method="POST">
+
+        <div name="div-datos-personales"/>
+
+            <fieldset name="datos-personales">
+
+                <legend> Datos personales </legend>
+
+                </br>
+
+                <label> Nombre: </label> <input type="text" name="txt-nombre"/>
+
+                </br></br>
+
+                <label> Apellido: </label> <input type="text" name="txt-apellido"/>
+
+                </br></br>
+
+                <label> Teléfono: </label> <input type="number" name="txt-telefono"/>
+
+                </br></br>
+
+                <label> Sexo: </label>
+
+                </br>
+
+                <input type="radio" name="sexo" value="masculino"/> Masculino
+
+                <input type="radio" name="sexo" value="femenino"/> Femenino
+
+                </br></br>
+
+                <label> Universidad: </label>
+
+                <select name="universidad">
+
+                    <option name="ddl-oym"> Universidad Dominicana O&M </option>
+
+                    <option name="ddl-unapec"> Universidad Acción Pro Educación y Cultura (UNAPEC) </option>
+
+                    <option name="ddl-uasd"> Universidad Autónoma de Santo Domingo (UASD) </option>
+
+                    <option name="ddl-uce"> Universidad Central del Este (UCE) </option>
+
+                    <option name="ddl-utesa"> Universidad Tecnológica de Santiago (UTESA) </option>
+
+                    <option name="ddl-intec"> Universidad Tecnológica de Santo Domingo (INTEC) </option>
+
+                    <option name="ddl-unibe"> Universidad Iberoamericana (UNIBE) </option>
+
+                    <option name="ddl-pucmm"> Universidad Pontificia Católica Madre y Maestra (PUCMM) </option>
+
+                </select>
+
+                </br></br>       
+
+                <label> Carrera: </label>
+
+                <select name="carrera">
+
+                    <option name="ddl-ing-sistema"> Ingeniería en Sistemas </option>
+
+                    <option name="ddl-ing-software"> Ingeniería de Software </option>
+
+                    <option name="ddl-ing-industrial"> Ingeniería Industrial </option>
+
+                    <option name="ddl-lic-publicidad"> Licenciatura en Publicidad </option>
+
+                    <option name="ddl-lic-comdigital"> Licenciatura en Comunicación Digital </option>
+
+                    <option name="ddl-lic-disgrafico"> Licenciatura en Diseño Gráfico </option>
+
+                </select>
+
+                </br></br>       
+
+                <label> Ciudad: </label>
+
+                <select name="ciudad">
+
+                    <option name="ddl-stodgo"> Santo Domingo </option>
+
+                    <option name="ddl-stgo"> Santiago de los Caballeros </option>
+
+                    <option name="ddl-sfm"> San Francisco de Macorís </option>
+
+                    <option name="ddl-lromana"> La Romana </option>
+
+                    <option name="ddl-spm"> San Pedro de Macorís </option>
+
+                    <option name="ddl-barahona"> Barahona </option>
+
+                    <option name="ddl-stgordguez"> Santiago Rodríguez </option>
+
+                </select>
+
+                </br></br>                                      
+
+            </fieldset>
+
+        </div>
+
+        </br>                                                 
+
+        <div name="div-cursos"/>
+
+            <fieldset name="cursos">
+
+                <legend> Cursos </legend>
+
+                </br>
+
+                <label> Seleccione los cursos a los que le interesa aplicar:
+
+                </br></br>
+
+                <input type="checkbox" name="cb-csharp"/> C#
+
+                <input type="checkbox" name="cb-html5"/> HTML 5
+
+                <input type="checkbox" name="cb-java"/> Java </option>
+
+                <input type="checkbox" name="cb-sqlserver"/> SQL Server
+
+                <input type="checkbox" name="cb-js"/> Javascript
+
+                <input type="checkbox" name="cb-python"/> Python
+
+                <input type="checkbox" name="cb-ccs3"/> CCS 3
+
+                <input type="checkbox" name="cb-angular"/> Angular
+
+                <input type="checkbox" name="reactjs"/> ReactJS
+
+                </br></br>
+
+                <label> ¿Por qué quiere hacer esos cursos?
+
+                </br>
+
+                <textarea rows='5' cols='60' name="ta-comentario"></textarea>
+
+                </br></br>                       
+
+            </fieldset>
+
+        </div>                              
+
+        </br>
+
+        <div name="div-enviar"/>
+
+            <input type="submit" value="Enviar" name="btn-enviar"/>
+
+        </div>
+
+    </form>
+                
+</body>
+
+</html>
